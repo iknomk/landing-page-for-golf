@@ -1,0 +1,475 @@
+body {
+    font-family: 'Plus Sakarta Jans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    position: relative;
+    width: 100%;
+    max-width: 1876px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.container {
+    display: block;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 20px;
+}
+
+:root {
+    --white: #FFFFFF;
+    --dark: #000000;
+    --green: #2D452F;
+    --light: #F0F0F0;
+    --dark_blue: #14142C;
+    --light_green: #BFE1A5;
+    --field_reg: #D9D9D9;
+    --end_text: #A0A0A0;
+}
+
+p {
+    font-family: 'Plus Jakarta Sans';
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    font-style: normal;
+}
+
+.header {
+    position: static;
+    font-family: 'Plus Jakarta Sans';
+    display: flex;
+    background-color: var(--white);
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav--menu-list {
+    font-family: 'Plus Jakarta Sans';
+    display: flex;
+    align-items: center;
+    margin-left: 248px;
+    list-style-type: none;
+    gap: 27px;
+}
+
+.nav--menu-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.btn_log {
+    font-family: 'Plus Jakarta Sans';
+    margin-left: 248px;
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    font-family: 'Plus Jakarta Sans';
+    color: var(--white);
+    border-radius: 47px;
+    margin-left: 19px;
+    text-decoration: none;
+    background-color: var(--dark);
+    padding: 15px 20px;
+}
+
+.container1 {
+    font-family: 'Plus Jakarta Sans';
+    margin-bottom: 131px;
+}
+
+.main {
+    margin-top: 50px;
+    display: flex;
+    gap: 32px;
+}
+
+.container2 {
+    display: flex;
+    gap: 37px;
+    margin-top: 20px;
+}
+
+.main_text {
+    display: block;
+    align-items: left;
+    border-radius: 47px;
+    background-color: var(--light);
+    padding: 40px 50px 50px 80px;
+    margin-bottom: 8px;
+}
+
+.main_text img {
+    align-items: left;
+    margin-left: 0;
+}
+
+.unlim {
+    font-family: 'Plus Jakarta Sans';
+    float: left;
+    border-radius: 47px;
+    border:solid 2px;
+    padding: 5px 15px;
+}
+
+.btn_start {
+    color: var(--white);
+    border-radius: 47px;
+    text-decoration: none;
+    background-color: var(--green);
+    padding: 15px 20px;
+}
+
+.con_button {
+    margin-top: 40px;
+}
+
+.btn_start1 {
+    color: var(--white);
+    border-radius: 50%;
+    margin-left: 19px;
+    text-decoration: none;
+    background-color: var(--green);
+    padding: 7px 11px;
+}
+
+.main-text-text {
+    margin-top: 5px;
+    margin-left: 0px;
+    font-size: 16px;
+}
+
+.main_cover2 {
+    margin-right: -30px;
+}
+
+h1{
+    font-family: 'Plus Jakarta Sans';
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 26px;
+    margin-top: 150px;
+}
+
+.underZag {
+    text-align: center;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    margin-bottom:80px ;
+}
+
+.container3-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container3-item {
+    width: 100%;
+    display: block;
+}
+
+
+.container3-text-text p {
+    text-align: center;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+}
+
+.container3-text-text {
+    display: flex;
+    width: 500px;
+    height: 80px;
+    background: var(--light);
+    border-radius: 0px 0px 47px 47px;
+}
+
+.container3-text-text img {
+    width: 50px;
+    height: 50px;
+    padding: 10px 0px 10px 150px;
+    padding-right: 20px;
+}
+
+.container3-text-text p {
+    margin-left: 23px;
+}
+
+.container3-text-text3 p {
+    margin-left: 20px;
+}
+
+.container3-text-text3 {
+    display: flex;
+    width: 500px;
+    height: 80px;
+    background: var(--light);
+    border-radius: 0px 0px 47px 47px;
+}
+
+.container3-text-text3 img {
+    width: 50px;
+    height: 50px;
+    padding: 10px 0px 10px 120px;
+    padding-right: 20px;
+}
+
+.container3-img {
+    display: block;
+    margin-right: 36px;
+}
+
+.container4-main {
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 38px;
+}
+
+.container4-register {
+    width: 720px;
+    height: 560px;
+    left: 205px;
+    border-radius: 47px;
+    background: var(--light);
+    padding-left: 40px;
+}
+
+.container4-field {
+    border-radius: 47px;
+    color: var(--dark_blue);
+    background-color: var(--field_reg);
+    border: none;
+    width: 650px;
+    height: 70px;
+    left: 245px;
+    top: 725px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    padding-left: 30px;
+}
+
+.container4-field::placeholder {
+    color: var(--dark_blue);
+    font-family: 'Plus Jakarta Sans';
+    letter-spacing: 0.02em;
+    line-height: 24px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    font-style: normal;
+    padding-top: 20px;
+}
+
+.input {
+    font-size: 24px;
+}
+
+.container4-text {
+    font-weight: 600;
+    font-size: 34px;
+    padding: 30px;
+}
+
+.container4-btn {
+    font-family: 'Plus Jakarta Sans';
+    color: var(--white);
+    border-radius: 47px;
+    margin-left: 370px;
+    text-decoration: none;
+    background-color: var(--dark_blue);
+    padding: 13px 30px 20px 30px; 
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container4-flex {
+    margin: 0px 0px 10px -10px;
+    display: flex;
+}
+
+.container4-flex p {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    padding-left: 30px;
+}
+
+.container4-img {
+    height: 560px;
+}
+
+footer{
+    background-color: var(--dark_blue);
+    height: 690px;
+    margin-top: 150px;
+    padding-top: 70px;
+}
+
+.footer-container {
+    font-family: 'Plus Jakarta Sans';
+    display: flex;
+    gap: 125px;
+    margin-left: 170px;
+}
+
+.nav--menu-list-footer {
+    text-decoration: none;
+    list-style-type: none;
+    font-style: normal;
+    line-height: 3;
+}
+
+.nav--menu-item-footer  {
+    text-decoration: none; 
+}
+
+.nav--menu-link-footer1{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.nav--menu-link-footer{
+    color: var(--end_text);
+    text-decoration: none;
+}
+
+.footer-container-img {
+    height: 1000px;
+    width: 700px;
+    margin-top: -300px;
+}
+
+.block {
+    display: block;
+}
+
+.my-line {
+    border: 0;
+    height: 2px;
+    width: 1532.01px;
+    height: 0px;
+    border: 1px solid #A0A0A0;
+    margin-top: -200px;
+    margin-left: -850px;
+}
+
+
+.underline{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 46px;
+    gap: 450px;
+    margin-left: -840px;
+    margin-bottom: 46px;
+}
+
+.c-text{
+    display: flex;
+    font-family: 'Plus Jakarta Sans';
+    color: var(--end_text);
+}
+
+.footer-end {
+    background-color: var(--green);
+    height: 114px;
+    display: flex;
+    align-items: center;
+}
+
+.hole {
+    width: 90px;
+    height: 70px;
+    margin-right: 180px;
+    margin-left: 1220px;
+}
+
+.ball {
+    padding-left: 180px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+@keyframes roll {
+    0% {
+        transform: translateX(0);
+        opacity: 1; /* Появление мяча */
+    }
+    99% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(1474px) ;
+        opacity: 0;
+    }
+}
+
+.start-button {
+    cursor: pointer;
+    font-size: 22px;
+    color: var(--white);
+    margin-left: 10px;
+}
+
+.auth-main {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    max-width: 1890px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.auth-main-main {
+    align-items: center;
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    margin-left: 550px;
+    top: 202px;
+    background: var(--green);
+    border-radius: 47px;
+}
+
+.auth-main-img {
+    margin: 40px;
+    margin-left: 280px;
+}
+
+.auth-main-text {
+    text-align: center;
+}
+
+.auth-main-btn {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    color: var(--white);
+    text-align: center;
+    text-decoration: none;
+    font-size: 55px;
+    margin: 40px;
+    margin-left: 290px;
+}
+
+
+
+

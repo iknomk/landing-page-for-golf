@@ -1,0 +1,35 @@
+.container-error {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 160px;
+}
+
+.container_404 {
+    text-align: center;
+}
+
+.container_404 h1 {
+    font-size: 210px;
+    margin: -20px;
+    color: #14142C; 
+}
+
+.container_404 p {
+    font-size: 40px;
+    color: #14142C;
+}
+
+.container_404 a {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color:  #2D452F; 
+    color: white;
+    text-decoration: none;
+    border-radius: 47px;
+}
+
+
